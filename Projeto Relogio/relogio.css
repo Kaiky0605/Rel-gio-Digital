@@ -1,0 +1,135 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Grey+Qo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Grey+Qo&family=Miltonian&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Grey+Qo&family=IM+Fell+English+SC&family=Miltonian&display=swap');
+
+/* Remove as margens e o preenchimento padrão ao redor do corpo da página */
+body {
+    align-items: center;
+    justify-content:center ;
+    margin: 0px; /* Remove qualquer margem ao redor do corpo da página, eliminando o espaço extra */
+    padding: 0px; /* Remove qualquer preenchimento interno ao redor do corpo da página, eliminando o espaço interno */
+    
+}
+
+/* Estilo para a caixa que envolve todo o relógio */
+.relogio {
+            margin: 2rem; /* Adiciona um espaço ao redor da caixa do relógio */
+            padding:0; /* Remove o preenchimento interno da caixa */
+            width: 900px; /* Define a largura da caixa do relógio */
+            display: flex; /* Define que a caixa usará um layout flexível */
+            border: solid 1px white; /* Adiciona uma borda sólida ao redor da caixa */
+            justify-content: center; /* Centraliza horizontalmente os itens dentro da caixa */
+            align-items: center; /* Centraliza verticalmente os itens dentro da caixa */
+            background: linear-gradient(rgba(6, 2, 250, .4), rgba(0, 0, 0, .4)); /* Aplica um gradiente de fundo */
+            box-shadow: 5px 5px 10px; /* Adiciona uma sombra ao redor da caixa */
+            border-radius: 30px; /* Arredonda os cantos da caixa */
+        }
+
+/* Estilo para cada seção de tempo (horas, minutos, segundos) dentro da caixa do relógio */
+.tempo {
+    
+    align-items: center;
+    margin: 3rem; /* Adiciona um espaço de 3 rem ao redor de cada seção de tempo, afastando-as umas das outras */
+    padding: 0px; /* Remove o preenchimento interno das seções de tempo para que não haja espaço extra dentro */
+    width: 200px; /* Define uma largura fixa de 200 pixels para cada seção de tempo */
+    height: 200px; /* Define uma altura fixa de 200 pixels para cada seção de tempo */
+    color: black; /* Define a cor do texto dentro das seções de tempo como preta */
+    border-radius: 1rem; /* Arredonda os cantos das seções de tempo com um raio de 1 rem para um efeito visual mais suave */
+    text-align: center; /* Alinha o texto no centro das seções de tempo */
+    border: solid 1px; /* Adiciona uma borda sólida de 1 pixel ao redor de cada seção de tempo */
+    background-color: #f9f9f9; /* Define a cor de fundo das seções de tempo como um cinza muito claro (#f9f9f9) */
+    box-shadow: 5px 5px black; /* Adiciona uma sombra preta com 5 pixels de deslocamento para a direita e para baixo, sem desfoque */
+}
+
+/* Estilo para todos os parágrafos dentro das seções de tempo */
+p {
+    font-size: 1rem; /* Define o tamanho da fonte para 1 rem, que é uma unidade relativa ao tamanho da fonte do elemento pai */
+}
+
+/* Estilo específico para o parágrafo que exibe as horas */
+#horas {
+    font-size: 50px; /* Define um tamanho de fonte muito maior (50 pixels) para destacar as horas */
+}
+
+#minutos {
+    font-size: 50px;
+}
+
+/* Estilo específico para o parágrafo que exibe os segundos */
+#segundos {
+    font-size: 50px; /* Define um tamanho de fonte muito maior (50 pixels) para destacar os segundos */
+    
+}
+
+footer {
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family: "IM Fell English SC", serif;
+    font-weight: 400;
+}
+/* img{
+    width: 0px;
+} */
+body {
+    margin: 0;
+    padding: 0;
+    background: url('img/pexels-nicole.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    height: 100vh; /* Garante que o body ocupe toda a altura da janela */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Garante que o conteúdo é empurrado para cima e o rodapé para baixo */
+}
+
+h1 { 
+    margin: 0px;
+    padding: 10px; 
+     font-family: "Miltonian", serif;
+    font-size: 70px;
+    color: white
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+    font-family: "EB Garamond", serif;
+    font-size: 70px;
+    color: white
+
+}
+.Calendario {
+    margin: 4rem; /* Adiciona um espaço ao redor da caixa do relógio */
+    padding: 0; /* Remove o preenchimento interno da caixa */
+    width: 600px; /* Define a largura da caixa do relógio */
+    display: flex; /* Define que a caixa usará um layout flexível */
+    border: solid 1px white; /* Adiciona uma borda sólida ao redor da caixa */
+    justify-content: center; /* Centraliza horizontalmente os itens dentro da caixa */
+    align-items: center; /* Centraliza verticalmente os itens dentro da caixa */
+    background: linear-gradient(rgba(6, 2, 250, .4), rgba(0, 0, 0, .4)); /* Aplica um gradiente de fundo */
+    box-shadow: 5px 5px 10px; /* Adiciona uma sombra ao redor da caixa */
+    border-radius: 30px; /* Arredonda os cantos da caixa */
+    height: 170px;
+}
+.data {
+    
+    align-items: center;
+    margin: 3rem; /* Adiciona um espaço de 3 rem ao redor de cada seção de tempo, afastando-as umas das outras */
+    padding: 0px; /* Remove o preenchimento interno das seções de tempo para que não haja espaço extra dentro */
+    width: 750px; /* Define uma largura fixa de 200 pixels para cada seção de tempo */
+    height: 96px; /* Define uma altura fixa de 200 pixels para cada seção de tempo */
+    color: rgb(0, 0, 0); /* Define a cor do texto dentro das seções de tempo como preta */
+    border-radius: 1rem; /* Arredonda os cantos das seções de tempo com um raio de 1 rem para um efeito visual mais suave */
+    text-align: center; /* Alinha o texto no centro das seções de tempo */
+    border: solid 1px; /* Adiciona uma borda sólida de 1 pixel ao redor de cada seção de tempo */
+    background-color: #f9f9f9; /* Define a cor de fundo das seções de tempo como um cinza muito claro (#f9f9f9) */
+    box-shadow: 5px 5px rgb(0, 0, 0); /* Adiciona uma sombra preta com 5 pixels de deslocamento para a direita e para baixo, sem desfoque */
+    font-weight: bolder;
+}
+

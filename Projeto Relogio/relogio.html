@@ -1,0 +1,87 @@
+<!DOCTYPE html> <!-- Declara que o documento é um HTML5 -->
+
+<html lang = "en"> <!-- Define o idioma da página como inglês -->
+
+    <head>  <!-- Parte do documento onde colocamos informações extras e links para recursos -->
+        
+        <meta charset="utf-8"> <!-- Define o tipo de caracteres que podemos usar, como letras e símbolos especiais -->
+
+        <meta nome = "viewport" content="width=device-width, initial-scale=1.0">   <!-- Faz a página se ajustar bem em dispositivos móveis -->
+
+        <link rel = "stylesheet" href = "relogio.css"> <!-- Conecta o arquivo de estilos (CSS) para deixar a página bonita -->
+
+
+        <script src = "relogio.js" defer></script> <!-- Link para o arquivo JavaScript externo que adiciona funcionalidade à página; o atributo 'defer' garante que o script seja carregado após o HTML -->
+        
+        <script src = "script.js" defer></script>
+
+        <title>Relogio</title> <!-- Define o título da página, que aparece na aba do navegador -->
+    </head>
+    <body> <!-- Aqui fica o conteúdo que será mostrado na página -->
+       
+        <h1 style="text-align: center;">ECLIPSE <br> </h1>
+        <h2 style="text-align: center;"> Relógio Digital</h2>
+        
+        <div class = "Calendario" >
+
+            <div class = "data"> <!-- Seção para mostrar as horas -->
+                
+                
+                <p class = "Dia">Dia</p>  <!-- Texto que diz "Horas" para descrever o que está mostrado -->
+                
+                <p id = "dia" >00</p>  <!-- Onde vai aparecer o número das horas -->
+            </div>
+    
+            <div class = "data"> <!-- Seção para mostrar as horas -->
+                
+                <p class = "Mês">Mês</p>  <!-- Texto que diz "Horas" para descrever o que está mostrado -->
+                
+                <p id = "mes" >00</p>  <!-- Onde vai aparecer o número das horas -->
+                
+            </div>
+    
+            <div class = "data"> <!-- Seção para mostrar as horas -->
+                
+                <p class = "Ano">Ano</p>  <!-- Texto que diz "Horas" para descrever o que está mostrado -->
+                
+                <p id = "ano" >00</p>  <!-- Onde vai aparecer o número das horas -->
+           
+            </div>
+    
+        </div>
+        
+    
+    <div class = "relogio"> <!-- Uma caixa que vai mostrar o relógio -->
+
+            
+            <div class = "tempo"> <!-- Seção para mostrar as horas -->
+
+                <p id = "horas" >00</p>  <!-- Onde vai aparecer o número das horas -->
+
+                <p class = "Horas">Horas</p>  <!-- Texto que diz "Horas" para descrever o que está mostrado -->
+            </div>
+        
+        <div class = "tempo">  <!-- Seção para mostrar os minutos -->
+
+            <p id = "minutos">00</p> <!-- Onde vai aparecer o número dos minutos -->
+
+            <p class = "minutos">Minutos</p>  <!-- Texto que diz "Minutos" para descrever o que está mostrado -->
+
+        </div>
+
+        <div class = "tempo"> <!-- Seção para mostrar os segundos -->
+
+            <p id = "segundos">00</p>   <!-- Onde vai aparecer o número dos segundos -->
+
+            <p class = "segundos">Segundos</p> <!-- Texto que diz "Segundos" para descrever o que está mostrado -->
+        </div>
+        
+    </div>
+
+
+    <footer>
+        <p> Desenvolvido por Kaiky Barbosa - 2024</p>
+    </footer>
+
+    </body>
+</html>
